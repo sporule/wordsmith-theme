@@ -1,5 +1,5 @@
 import React from "react";
-import Config from "../../_config";
+import Config from "../_config";
 import TemplateConfig from "./_templateConfig";
 
 const NavTemplate = (props) => {
@@ -16,7 +16,7 @@ const NavTemplate = (props) => {
                 <form role="search" method="get" className="header__search-form" action="/">
                     <label>
                         <span className="hide-content">Search for:</span>
-                        <input type="search" className="search-field" placeholder="Type Keywords" onChange={o => {}} name="search" title="Search for:" autoComplete="off" />
+                        <input type="search" className="search-field" placeholder="Type Keywords" onChange={o => { }} name="search" title="Search for:" autoComplete="off" />
                     </label>
                     <input type="submit" className="search-submit" value="Search" readOnly />
                 </form>
