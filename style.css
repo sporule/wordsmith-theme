@@ -18,3 +18,7 @@
 .s-content__main, .entry__main {
     padding:0px!important;
 }
+
+.featured__slide .entry:before {
+    opacity: 0.1!important;
+}
