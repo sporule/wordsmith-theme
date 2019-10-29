@@ -1,9 +1,11 @@
-/*
-import Example from "./example";
+
+import Posts from "./posts";
 
 const CustomPages = {
-    "example":Example
+    "posts": {
+        "title": "Posts",
+        "component": Posts
+    }
 }
 
 export default CustomPages;
-*/
